@@ -45,7 +45,21 @@ div {
 
 .priority {
   font-weight: bold;
-  
+}
+
+.priority.low {
+  background-color: green;
+  font-weight: bold;
+}
+
+.priority.medium {
+  background-color: orange;
+  font-weight: bold;
+}
+
+.priority.high {
+  background-color: red;
+  font-weight: bold;
 }
 
 button {
@@ -102,3 +116,4 @@ form {
   width: 50%;
   margin: auto;
 }
+
